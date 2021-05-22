@@ -1,0 +1,543 @@
+* {
+  /* awalan dikasih ini */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+.logo {
+  display: block;
+  width: 162px;
+  height: 32px;
+  align-self: center;
+  /* margin-right: 400px; */
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.left {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hero img {
+  height: 100vh;
+  margin-top: opx;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+  padding-right: 100px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.btn-bottom {
+  padding: 12px 150px;
+  border: none;
+  background-color: #ffdb47;
+  color: #1b1d28;
+  border-radius: 5px;
+}
+
+.bottom a {
+  text-align: center;
+  margin-top: 30px;
+  color: #4f4f4f;
+  text-decoration: none;
+}
+
+/* ................................................................login .............................................................................................................................................*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  animation: fade-in 0.5s ease-in-out;
+}
+/* @keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+} */
+button {
+  outline: none;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.container .title {
+  text-align: center;
+}
+
+.container .title h2 {
+  text-align: center;
+  color: #18172b;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0px;
+}
+
+.container .title p {
+  font-size: 16px;
+  color: #333333;
+}
+
+.container form {
+  width: 100%;
+  align-self: center;
+  max-width: 300px;
+  /* margin-top: 20px; */
+}
+
+.wrapper form {
+  width: 100%;
+  align-self: center;
+  max-width: 300px;
+  /* margin-top: 20px; */
+}
+
+.grup-input {
+  display: flex;
+  flex-direction: column;
+  /* margin: 10px 0; */
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.grup-input label {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0px;
+  text-align: left;
+}
+
+.grup-input input {
+  background-color: #f8f8fa;
+  padding: 13px;
+  border-radius: 18px;
+  border: none;
+  justify-content: space-between;
+}
+
+.grup-input input:focus {
+  outline: none;
+}
+.grup-input .toogle {
+  position: absolute;
+  right: 0.75em;
+  top: 3.5em;
+  z-index: 9;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.grup-input .toogle > i {
+  font-size: 15px;
+  color: #6e80b0;
+}
+
+.kotak-submit {
+  padding: 17px;
+  border: none;
+  outline: none;
+  background-color: #ffdb47;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.kotak-submit:hover {
+  background-color: #b1a007;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.link p {
+  font-size: 16px;
+  color: #333333;
+}
+
+.link a {
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 10px;
+  border-style: none;
+  color: #333333;
+}
+
+.sosmed {
+  align-self: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.kotak-sosmed {
+  width: 100%;
+  max-width: 150px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  background-color: #f8f8fa;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 20px;
+  margin: 20px 10px;
+}
+
+.kotak-sosmed:hover {
+  background-color: lightgray;
+}
+/* home ..................................................*/
+.home {
+  align-self: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 300px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.space {
+  justify-content: space-between;
+  align-items: center;
+}
+.warp {
+  flex-wrap: wrap;
+}
+.img {
+  width: 80px;
+  margin: 6px;
+}
+
+.kartu-header {
+  display: block;
+  background-color: #f1f3f6;
+  border-radius: 12px;
+  padding: 15px 15px;
+}
+.header {
+  margin-bottom: 20px;
+}
+.statistik {
+  margin-bottom: 20px;
+}
+.ctn {
+  font-weight: 600;
+  font-size: 24px;
+
+  color: #171822;
+}
+.ctnt {
+  color: #3a4276;
+  font-size: 12px;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.category h5 {
+  font-weight: lighter;
+  color: #3a4276;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+.product h5 {
+  font-weight: lighter;
+  color: #3a4276;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+/* link page........................................................... */
+.card-icon {
+  display: flex;
+  background-color: #f8f8fa;
+  border-radius: 20px;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 2px;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 20px;
+}
+.card-img {
+  width: 100px !important;
+  border-radius: 20px;
+}
+.header > img {
+  position: relative;
+  float: left;
+  display: block;
+  width: 145px;
+  height: 32px;
+}
+.btn-add {
+  float: right;
+  margin-right: 10px;
+  border: none;
+  border-radius: 50%;
+  background: #ffdb47;
+  cursor: pointer;
+  margin-top: 2px;
+}
+.btn-add > img {
+  padding: 8px;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 300px;
+  margin-top: 30px;
+  position: relative;
+  width: 100%;
+  align-self: center;
+}
+.btn-group {
+  position: relative;
+  background: #f3f6f8;
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.btn-group .link-icon {
+  width: 40px;
+}
+
+.btn-group h3 {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #171717;
+  margin-top: 2%;
+}
+
+.edit {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+  .wrapper {
+    padding: 60px 40px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .wrapper {
+    padding: 60px 30px;
+  }
+}
+/* modal.......................................................... */
+.content-button {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.btn-kategori {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+}
+
+.overlay {
+  display: none;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.pop-up {
+  position: absolute;
+  bottom: 0px;
+  right: 25%;
+  left: 50%;
+  margin-left: -150px;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  background-color: #ffffff;
+
+  animation: fadeUp 0.5s ease-in-out;
+  border: 1px solid #bebebe;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.open {
+  display: block;
+}
+
+.close {
+  animation: fadeDown 0.5s ease-in-out;
+  display: none;
+}
+
+@keyframes fadeUp {
+  0% {
+    transform: translateY(4rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDown {
+  0% {
+    transform: translateY(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.modal-action {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-fill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.close-btn {
+  background-color: #333333;
+  border-radius: 8px;
+  width: 25px;
+  height: 25px;
+  border: none;
+  outline: none;
+}
+
+.modal-icon {
+  width: 100px;
+  align-self: center;
+}
+
+/* select-icon */
+.icon-select {
+  width: 50px;
+}
+
+.name-icon {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
